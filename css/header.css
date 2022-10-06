@@ -1,0 +1,64 @@
+:root{
+    --dark-grey: #1f272b;
+    --warm-white: white;
+}
+
+
+.headerUp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--dark-grey);
+  color: var(--warm-white);
+  /* color: var(-warm-white); */
+  padding: 0.7% 7%;
+  font-size: 90%;
+  border: 2px solid rgb(0, 255, 42);
+}
+.headerContacts {
+  display: flex;
+  justify-content: space-between;
+  width: 8%;
+  border: 2px solid red;
+}
+.headerDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 7%;
+  border: 2px solid red;
+  background-color: var(--dark-grey);
+  opacity: 60%;
+}
+.edumeetingMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 45%;    
+}
+.menuLogoText{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--warm-white);
+}
+.menuText{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--warm-white);
+}
+.headerWelcome{
+    line-height: 3;
+    border: 2px solid red;
+
+}
+.headerWelcomeInfo{
+    width: 38%;
+    padding: 2% 10%;
+    border: 2px solid rgb(60, 14, 225);
+    padding: 9% 7%;
+
+}
+.textMeeting{
+    line-height: 2;
+}
